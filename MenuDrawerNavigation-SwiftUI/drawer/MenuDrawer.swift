@@ -92,7 +92,7 @@ struct MenuDrawer : View {
         }
         .background(Color.white)
         .cornerRadius(25)
-        .conditionalModifier(condition: 1, isToggle: isToggle)
+        .conditionalModifier(condition: 5, isToggle: isToggle)
     }
 }
 

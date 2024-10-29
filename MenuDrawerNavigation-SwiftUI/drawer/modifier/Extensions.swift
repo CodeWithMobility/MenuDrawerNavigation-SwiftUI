@@ -15,7 +15,7 @@ extension View {
         let animatedOffset = isToggle ? offsetValue : 0
         let animatedScale = isToggle ? 0.8 : 1.0
         let animatedRotation = isToggle ? -12.0 : 0.0
-        let animatedRotationZ = isToggle ? -45.0 : 0.0
+        let animatedRotationZ = isToggle ? 45.0 : 0.0
         
         // Applying modifiers conditionally based on condition value
         switch condition {
@@ -50,6 +50,25 @@ extension View {
                                   anchorZ: 0,
                                   perspective: 0.5
                 )
+                .animation(.easeInOut(duration: 0.3), value: isToggle)
+                .applyShadow()
+            
+        case 5:
+            self
+                .scaleEffect(isToggle ? 0.7 : 1.0)
+                .offset(x: animatedOffset)
+                .rotation3DEffect(.degrees(animatedRotationZ),
+                                  axis: (x: 0, y: 1, z: 0), // Rotate along the Y-axis
+                                  anchor: .trailing, // Set anchor to the right side
+                                  anchorZ: 0,
+                                  perspective: 0.5
+                )
+                .animation(.easeInOut(duration: 0.3), value: isToggle)
+                .applyShadow()
+            
+        case 6:
+            self
+                .offset(x: animatedOffset)
                 .animation(.easeInOut(duration: 0.3), value: isToggle)
                 .applyShadow()
             
