@@ -12,11 +12,13 @@ struct NavigationItemView: View {
     var imageName: String
     var menuName: String
     var buttonIndex: Int
+    var isHighlight: Bool
     let action: () -> Void
+   
 
     var body: some View {
         Button(action: action) {
-            HStack(spacing: 25) {
+            HStack(alignment: .center, spacing: 15) {
                 Image(imageName)
                     .resizable()
                     .renderingMode(.template)
@@ -26,10 +28,14 @@ struct NavigationItemView: View {
                 Text(menuName)
                     .font(.subheadline)
                     .foregroundColor(Color.white)
+                Spacer()
             }
-            .padding(.vertical, 5)
+            .padding(.vertical, 8)
             .padding(.horizontal)
-            .cornerRadius(10)
+            .frame(width: 165)
+            .background(isHighlight ? Color.gray.opacity(0.2) : Color.clear)
+            .cornerRadius(15)
         }
     }
 }
+

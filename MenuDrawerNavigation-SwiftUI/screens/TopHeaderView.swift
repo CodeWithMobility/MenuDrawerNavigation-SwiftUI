@@ -6,7 +6,7 @@
 //
 import SwiftUI
 
-struct CommonHeaderView: View {
+struct TopHeaderView: View {
     
     @Binding var isToggle: Bool
     var topSafeArea: CGFloat
@@ -16,7 +16,7 @@ struct CommonHeaderView: View {
         HStack(spacing: 15) {
             Image(systemName: "line.horizontal.3")
                 .resizable()
-                .frame(width: 20, height: isToggle ? 20 : 20)
+                .frame(width: 20, height: isToggle ? 20 : 15)
                 .rotationEffect(.degrees(isToggle ? 90 : 0))
                 .onTapGesture {
                     isToggle.toggle()
@@ -28,7 +28,7 @@ struct CommonHeaderView: View {
             Spacer(minLength: 0)
         }
         .padding(.top, topSafeArea + 20)
-        .padding(.leading, 30)
+        .padding(.leading, 20)
     }
 }
 

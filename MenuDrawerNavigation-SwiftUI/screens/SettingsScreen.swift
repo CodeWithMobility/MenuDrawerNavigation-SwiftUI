@@ -11,11 +11,12 @@ struct SettingsScreen: View {
     
     @Binding var isToggle: Bool
     var topSafeArea: CGFloat
+    var title: String
     
     var body: some View {
         
         VStack {
-            CommonHeaderView(isToggle: $isToggle, topSafeArea: topSafeArea, title: "Settings")
+            TopHeaderView(isToggle: $isToggle, topSafeArea: topSafeArea, title: title)
                           Spacer()
         }.background(.white)
     }

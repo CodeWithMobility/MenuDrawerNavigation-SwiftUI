@@ -25,15 +25,15 @@ struct ProfileHeader: View {
                 )
                 .cornerRadius(50)
             Text(name)
-                .font(.title3)
+                .font(.headline)
                 .fontWeight(.bold)
                 .foregroundColor(.white)
                 .padding(.top, 10)
             
             Text(role)
                 .fontWeight(.bold)
-                .font(.headline)
-                .foregroundColor(.white)
-        }.padding(30)
+                .font(.caption)
+                .foregroundColor(.white.opacity(0.8))
+        }
     }
 }
