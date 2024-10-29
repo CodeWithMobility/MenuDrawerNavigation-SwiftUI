@@ -14,6 +14,18 @@
 		1D5F167A2CD0C9E5007A308D /* MenuDrawerNavigation_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5F16792CD0C9E5007A308D /* MenuDrawerNavigation_SwiftUITests.swift */; };
 		1D5F16842CD0C9E5007A308D /* MenuDrawerNavigation_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5F16832CD0C9E5007A308D /* MenuDrawerNavigation_SwiftUIUITests.swift */; };
 		1D5F16862CD0C9E5007A308D /* MenuDrawerNavigation_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5F16852CD0C9E5007A308D /* MenuDrawerNavigation_SwiftUIUITestsLaunchTests.swift */; };
+		1D5F16952CD0CAC0007A308D /* MenuDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5F16942CD0CAC0007A308D /* MenuDrawer.swift */; };
+		1D5F16992CD0CB76007A308D /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5F16982CD0CB76007A308D /* HomeScreen.swift */; };
+		1D5F169B2CD0CBB4007A308D /* TasksScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5F169A2CD0CBB4007A308D /* TasksScreen.swift */; };
+		1D5F169D2CD0CBE3007A308D /* ProjectsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5F169C2CD0CBE3007A308D /* ProjectsScreen.swift */; };
+		1D5F169F2CD0CC37007A308D /* RemindersScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5F169E2CD0CC37007A308D /* RemindersScreen.swift */; };
+		1D5F16A12CD0CC5B007A308D /* CalendarScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5F16A02CD0CC5B007A308D /* CalendarScreen.swift */; };
+		1D5F16A32CD0CC78007A308D /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5F16A22CD0CC78007A308D /* ProfileScreen.swift */; };
+		1D5F16A52CD0CC8F007A308D /* ReportsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5F16A42CD0CC8F007A308D /* ReportsScreen.swift */; };
+		1D5F16A72CD0CCA9007A308D /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5F16A62CD0CCA9007A308D /* SettingsScreen.swift */; };
+		1D5F16A92CD0CE6A007A308D /* NavigationItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5F16A82CD0CE6A007A308D /* NavigationItemView.swift */; };
+		1D5F16E12CD0EE40007A308D /* ProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5F16E02CD0EE40007A308D /* ProfileHeader.swift */; };
+		1D5F16E32CD10E6C007A308D /* CommonHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5F16E22CD10E6C007A308D /* CommonHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +56,18 @@
 		1D5F167F2CD0C9E5007A308D /* MenuDrawerNavigation-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MenuDrawerNavigation-SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D5F16832CD0C9E5007A308D /* MenuDrawerNavigation_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDrawerNavigation_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		1D5F16852CD0C9E5007A308D /* MenuDrawerNavigation_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDrawerNavigation_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1D5F16942CD0CAC0007A308D /* MenuDrawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDrawer.swift; sourceTree = "<group>"; };
+		1D5F16982CD0CB76007A308D /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		1D5F169A2CD0CBB4007A308D /* TasksScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksScreen.swift; sourceTree = "<group>"; };
+		1D5F169C2CD0CBE3007A308D /* ProjectsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsScreen.swift; sourceTree = "<group>"; };
+		1D5F169E2CD0CC37007A308D /* RemindersScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersScreen.swift; sourceTree = "<group>"; };
+		1D5F16A02CD0CC5B007A308D /* CalendarScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarScreen.swift; sourceTree = "<group>"; };
+		1D5F16A22CD0CC78007A308D /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		1D5F16A42CD0CC8F007A308D /* ReportsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsScreen.swift; sourceTree = "<group>"; };
+		1D5F16A62CD0CCA9007A308D /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		1D5F16A82CD0CE6A007A308D /* NavigationItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationItemView.swift; sourceTree = "<group>"; };
+		1D5F16E02CD0EE40007A308D /* ProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeader.swift; sourceTree = "<group>"; };
+		1D5F16E22CD10E6C007A308D /* CommonHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +118,8 @@
 		1D5F16672CD0C9E4007A308D /* MenuDrawerNavigation-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				1D5F16932CD0CAAA007A308D /* drawer */,
+				1D5F16922CD0CA9C007A308D /* screens */,
 				1D5F16682CD0C9E4007A308D /* MenuDrawerNavigation_SwiftUIApp.swift */,
 				1D5F166A2CD0C9E4007A308D /* ContentView.swift */,
 				1D5F166C2CD0C9E5007A308D /* Assets.xcassets */,
@@ -125,6 +151,48 @@
 				1D5F16852CD0C9E5007A308D /* MenuDrawerNavigation_SwiftUIUITestsLaunchTests.swift */,
 			);
 			path = "MenuDrawerNavigation-SwiftUIUITests";
+			sourceTree = "<group>";
+		};
+		1D5F16922CD0CA9C007A308D /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				1D5F16982CD0CB76007A308D /* HomeScreen.swift */,
+				1D5F169A2CD0CBB4007A308D /* TasksScreen.swift */,
+				1D5F169C2CD0CBE3007A308D /* ProjectsScreen.swift */,
+				1D5F169E2CD0CC37007A308D /* RemindersScreen.swift */,
+				1D5F16A02CD0CC5B007A308D /* CalendarScreen.swift */,
+				1D5F16A22CD0CC78007A308D /* ProfileScreen.swift */,
+				1D5F16A42CD0CC8F007A308D /* ReportsScreen.swift */,
+				1D5F16A62CD0CCA9007A308D /* SettingsScreen.swift */,
+				1D5F16E02CD0EE40007A308D /* ProfileHeader.swift */,
+				1D5F16E22CD10E6C007A308D /* CommonHeaderView.swift */,
+			);
+			path = screens;
+			sourceTree = "<group>";
+		};
+		1D5F16932CD0CAAA007A308D /* drawer */ = {
+			isa = PBXGroup;
+			children = (
+				1D5F16972CD0CAFA007A308D /* modifier */,
+				1D5F16962CD0CAEB007A308D /* model */,
+				1D5F16942CD0CAC0007A308D /* MenuDrawer.swift */,
+				1D5F16A82CD0CE6A007A308D /* NavigationItemView.swift */,
+			);
+			path = drawer;
+			sourceTree = "<group>";
+		};
+		1D5F16962CD0CAEB007A308D /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		1D5F16972CD0CAFA007A308D /* modifier */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = modifier;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +325,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D5F16E32CD10E6C007A308D /* CommonHeaderView.swift in Sources */,
+				1D5F16992CD0CB76007A308D /* HomeScreen.swift in Sources */,
+				1D5F16A12CD0CC5B007A308D /* CalendarScreen.swift in Sources */,
+				1D5F169F2CD0CC37007A308D /* RemindersScreen.swift in Sources */,
 				1D5F166B2CD0C9E4007A308D /* ContentView.swift in Sources */,
+				1D5F16A32CD0CC78007A308D /* ProfileScreen.swift in Sources */,
+				1D5F16E12CD0EE40007A308D /* ProfileHeader.swift in Sources */,
+				1D5F16A52CD0CC8F007A308D /* ReportsScreen.swift in Sources */,
 				1D5F16692CD0C9E4007A308D /* MenuDrawerNavigation_SwiftUIApp.swift in Sources */,
+				1D5F16A72CD0CCA9007A308D /* SettingsScreen.swift in Sources */,
+				1D5F16A92CD0CE6A007A308D /* NavigationItemView.swift in Sources */,
+				1D5F169D2CD0CBE3007A308D /* ProjectsScreen.swift in Sources */,
+				1D5F16952CD0CAC0007A308D /* MenuDrawer.swift in Sources */,
+				1D5F169B2CD0CBB4007A308D /* TasksScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
